@@ -1,0 +1,49 @@
+/*
+
+  TUNR
+  +
+
+*/
+
+.turn {
+  min-height: 95vh;
+  z-index: 1;
+  position: sticky;
+  bottom: 0px;
+  @include media-breakpoint-down(md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+  }
+  &--wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    @include media-breakpoint-down(md) {
+      display: inherit;
+      position: relative;
+    }
+
+  }
+  .sticky-element {
+   margin: 10rem auto;
+    padding: 10rem;
+    width: 60%;
+    @include media-breakpoint-down(md) {
+      margin: 1rem auto;
+      padding: 1rem;
+      width: 90%;
+    }
+  }
+  &__text {
+    position: absolute;
+    bottom: 20vh;
+    right: 18vw;
+    @include media-breakpoint-down(md) {
+      bottom: -5vh;
+    }
+  }
+}

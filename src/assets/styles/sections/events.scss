@@ -1,0 +1,162 @@
+/*
+
+  EVENTS
+  +
+
+*/
+
+.events {
+  min-height: 90vh;
+  position: relative;
+  background-color: $color-black;
+  @include media-breakpoint-down(md) {
+    min-height: 60vh;
+  }
+
+  &--wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  &__img {
+    position: relative;
+    
+    img {
+      left: 50%; 
+      top: -10rem;
+      transform: translate(-50%,0); 
+      position: absolute; 
+      z-index: 1
+    }
+  }
+
+  &__text {
+    padding: 5rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    @include media-breakpoint-down(md) {
+      @include center-text;
+    }
+    &__title {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 4rem;
+      font-style: italic;
+      @include media-breakpoint-down(md) {
+        @include center-text;
+        font-size: 3rem;
+      }
+      &--span {
+        &--am {
+          font-size: 3rem;
+        }
+        &--dj {
+          color: $color-purple-bright;
+          font-size: 1.5rem;
+          font-family: 'Roboto', sans-serif;
+          margin-right: 2rem;
+          margin-left: -15px;
+          padding-top: 8px;
+        }
+      }
+    }
+
+    &__cta {
+  
+      margin: 3rem 0 3rem 20rem;
+      @include media-breakpoint-down(md) {
+        margin: 3rem 0 3rem 0;
+        text-align: center;
+      }
+    }
+  }
+  &__container {
+    position: relative;
+    @include media-breakpoint-up(lg) {
+      max-width: 60vw;
+      margin: 0 auto;
+    }
+
+  }
+}
+
+.glider-draggable {
+  overflow-x: hidden;
+}
+
+.glider {
+  overflow-x: hidden;
+  &__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+    margin: 0 2rem;
+    @include media-breakpoint-down(md) {
+      max-width: 24rem;
+      display: flex;
+      margin: 0 2rem;
+      text-align: center;
+    }
+
+    &__img {
+      max-width: 25rem;
+    }
+
+    &__name {
+      font-family: 'Playfair Display SC', serif;
+      font-size: 2.2rem;
+    }
+
+    &__date {
+      float: right;
+      color: $color-green-light;
+      font-size: 1rem;
+      @include media-breakpoint-down(md) {
+        padding-top: 25px;
+      }
+    }
+
+    &__text {
+      margin-top: 2rem;
+      line-height: $line-height-big;
+      font-size: 1.2rem;
+    }
+
+    &__link {
+      margin: 3rem 0 5rem 0;
+    }
+  }
+  .glider-slide.active {
+    animation: moveInEvents .4s ease-in;
+  }
+  .glider-slide {
+    opacity: .4;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    transform: scale(.7);
+    @include media-breakpoint-down(md) {
+      margin: auto;
+    }
+  
+  }
+
+}
+
+.glider-slide.active {
+  opacity: 1;
+  margin-left: 15rem;
+  @include media-breakpoint-down(md) {
+    display: flex;
+    margin: auto;
+  }
+}
+  
+.glider-prev {
+  left: 3rem !important;
+  transform: rotate(180deg);
+}
+.glider-next  {
+  right: 3rem !important;
+}

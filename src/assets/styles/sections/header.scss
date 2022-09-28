@@ -1,0 +1,124 @@
+/*
+
+  Header
+  +
+
+*/
+
+.header {
+  position: absolute;
+  padding: 1em;
+  z-index: 20;
+  //display: flex;
+  justify-content: space-between;
+  width: calc(100% - 2em);
+  //background: $color-black;
+
+  @include media-breakpoint-down(md) {
+    .navigation-desktop {
+      display: none;
+    }
+  }
+
+
+  &__phone {
+    display: inline-block;
+    float: right;
+    margin-top: 1rem;
+    @include media-breakpoint-down(md) {
+      margin-top: 3rem;
+    }
+  }
+  &__play-music {
+    input[type=checkbox]{
+      height: 0;
+      width: 0;
+      visibility: hidden;
+    }
+
+    label {
+      cursor: pointer;
+      text-indent: -9999px;
+      width: 50px;
+      height: 30px;
+      background: transparent;
+      display: block;
+      border-radius: 100px;
+      position: relative;
+    }
+
+    label:after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 5px;
+      width: 25px;
+      height: 25px;
+      background: #fff;
+
+      background-image: url('./../../../assets/img/music-toggle.svg');
+      background-position: center;
+      background-size: cover;
+      border-radius: 90px;
+      transition: 0.3s;
+    }
+
+    input:checked + label {
+      background: $color-green-light;
+    }
+
+    input:checked + label:after {
+      left: calc(100% - 5px);
+      transform: translateX(-100%);
+    }
+
+    label:active:after {
+      width: 25px;
+    }
+  }
+  &__logo {
+    margin: 3rem;
+    position: fixed;
+  }
+
+  a {
+      text-decoration: none;
+      color: $color-white;
+  }
+
+  a.logo {
+      font-weight: bold;
+      text-transform: uppercase;
+
+  }
+
+  nav ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      margin: 2rem;
+      padding: 0;
+
+      li a {
+          padding: 1em;
+      }
+  }
+  &__links {
+    color: $color-green-light;
+  }
+}
+
+.header{
+
+
+  h1{
+    display: block;
+    padding: 150px 30px 0;
+    width: 420px;
+    max-width: 100%;
+    margin: 0 0 30px;
+    color: green;
+  }
+}

@@ -1,0 +1,111 @@
+/*
+
+  Footer
+  +
+
+*/
+
+.footer {
+  position: relative;
+  @include media-breakpoint-up(md) {
+    background-image: linear-gradient(90deg,
+            transparent 50%,
+            rgba(black, .9) 0%,
+            rgba(black, .9) 50%);
+  }
+  background-image: none;
+  @include media-breakpoint-down(md) {
+    background: black;
+  }
+
+  &--wrapper {
+    display: flex;
+    padding: 5rem 1rem;
+    @include media-breakpoint-up(md) {
+      justify-content: space-between;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 10rem 2rem;
+    }
+    @include media-breakpoint-down(md) {
+      justify-content: center;
+    }
+
+  }
+  &__to-top {
+    position: absolute;
+    right: 0%;
+    top: -5%;
+    padding: 25px 20px;
+    background: $color-purple-bright;
+    transition: all .3s ease;
+    &:hover {
+      transform: scale(1.05);
+    }
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+  &__butt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+    img {
+      z-index: 1;
+    }
+  }
+  &__col1 {
+    z-index: 2;
+    padding: 2rem;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+    img {
+      z-index: 2;
+      width: 90%;
+    }
+  }
+  &__col2 {
+    z-index: 2;
+    padding: 2rem;
+    @include media-breakpoint-up(md) {
+      padding: 2rem 10rem 2rem 2rem;
+    }
+    @include media-breakpoint-down(md) {
+      padding: 2rem;
+      text-align: center;
+    }
+  }
+  &__name {
+    font-size: 2rem;
+  }
+  &__made-by {
+    padding-top: 3rem;
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.1rem;
+    @include media-breakpoint-down(md) {
+      transform: translate(-50%,-10%);
+      left: 50%;
+    }
+    a {
+      font-size: 1.1rem;
+      font-style: normal;
+    }
+  }
+  }
+
+
+.bottom-pic {
+  &__img {
+    display: block;
+    position: relative;
+    object-fit: cover;
+    height: 50vh;
+    width: 100vw;
+  }
+}

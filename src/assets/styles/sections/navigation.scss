@@ -1,0 +1,101 @@
+/*
+
+  Navigation
+  +
+
+*/
+
+
+.navbar {
+  position: fixed;
+  background: transparent;
+  margin-top: 7rem;
+}
+
+.nav-pills {
+
+}
+
+.nav-item {
+  margin: 2rem 0;
+
+}
+
+.nav-link {
+  z-index: 9999;
+  font-family: "Playfair Display SC",serif;
+  padding: unset !important;
+  color: $color-green-light !important;
+  transition: all .3s ease;
+  &:hover {
+    color: $color-purple-bright !important;
+  }
+}
+
+.square--link {
+  height: 12px;
+  width: 12px;
+  border: 2px solid;
+  position: relative;
+  border-color: $color-green-light;
+  padding: 0px 5px;
+  font-size: 8px;
+  margin-right: 11px;
+  .active {
+    //color: $color-green-light !important;
+    background: none !important;
+    color: $color-purple-bright !important;
+    &:before {
+      content: none;
+    }
+  }
+}
+
+.active {
+  background: none !important;
+}
+
+
+
+.square--link--no-line {
+  padding: 0px 5px;
+  font-size: 8px;
+  height: 12px;
+  width: 12px;
+  border: 2px solid;
+  position: relative;
+  border-color: $color-green-light;
+  margin-right: 11px;
+}
+
+
+.square--link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  color: $color-green-light;
+  z-index: 1;
+  top: 108%;
+  left: 50%;
+  border: 1px solid;
+  border-width: 0 0 0 1px;
+  width: 1px;
+  height: 58px;
+}
+
+
+
+
+.active .square--link {
+  border-color: $color-purple-bright;
+  background-color: $color-purple-bright;
+}
+.active .square--link--no-line {
+  border-color: $color-purple-bright;
+  background-color: $color-purple-bright;
+
+}
+
+.nav-link.active {
+  color: $color-purple-bright !important;
+}

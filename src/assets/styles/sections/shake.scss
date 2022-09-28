@@ -1,0 +1,46 @@
+/*
+
+  SHAKE
+  +
+
+*/
+
+
+.shake {
+  min-height: 95vh;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -100vh;
+  @include media-breakpoint-down(lg) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+    margin-top: 17rem;
+
+  }
+  &--wrapper {
+    @include media-breakpoint-down(md) {
+      margin-top: 11rem;
+    }
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    position: sticky;
+
+
+  }
+  .sticky-element {
+    margin: 10rem auto;
+    padding: 32rem 10rem 10rem 10rem;
+    width: 60%;
+    @include media-breakpoint-down(md){
+      margin: 1rem auto;
+      padding: 1rem;
+      width: 90%;
+     }
+  }
+}

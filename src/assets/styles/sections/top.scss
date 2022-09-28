@@ -1,0 +1,308 @@
+/*
+
+  Top
+  +
+
+*/
+
+.top {
+  min-height: 90vh;
+  position: relative;
+  background-color: $color-black;
+
+  &--wrapper {
+      //display: grid;
+      //grid-template-columns: 1fr 1fr;
+      //@include respond(tab-port) {
+      //  grid-template-columns: 1fr;
+      //}
+  }
+
+  &__img {
+    .st0{fill:#211F26;}
+    .st1{opacity:0.54;}
+    .st2{clip-path:url(#SVGID_2_);}
+    .st3{fill:#FFFFFF;}
+    .st4{opacity:0.6;}
+    .st5{fill:#1A2B3D;}
+    .st6{fill:#1D1D1B;}
+    .st7{fill:#493C3A;}
+    .st8{fill:#00A19A;}
+    .st9{opacity:0.81;}
+    .st10{enable-background:new    ;}
+    .st11{clip-path:url(#SVGID_4_);}
+    .st12{clip-path:url(#SVGID_6_);}
+    .st13{clip-path:url(#SVGID_8_);}
+    .st14{clip-path:url(#SVGID_10_);}
+    .st15{clip-path:url(#SVGID_12_);}
+    .st16{fill:#1A1A21;}
+    .st17{fill:#121317;}
+    .st18{clip-path:url(#SVGID_14_);}
+    .st19{clip-path:url(#SVGID_16_);}
+    .st20{clip-path:url(#SVGID_18_);}
+    .st21{clip-path:url(#SVGID_20_);}
+    .st22{clip-path:url(#SVGID_22_);}
+    .st23{clip-path:url(#SVGID_24_);}
+    .st24{clip-path:url(#SVGID_26_);}
+    .st25{clip-path:url(#SVGID_28_);}
+    .st26{clip-path:url(#SVGID_30_);}
+    .st27{clip-path:url(#SVGID_32_);}
+    .st28{clip-path:url(#SVGID_34_);}
+    .st29{clip-path:url(#SVGID_36_);}
+    .st30{clip-path:url(#SVGID_38_);}
+    .st31{clip-path:url(#SVGID_40_);}
+    .st32{clip-path:url(#SVGID_42_);}
+    .st33{clip-path:url(#SVGID_44_);}
+    .st34{clip-path:url(#SVGID_46_);}
+    .st35{clip-path:url(#SVGID_48_);}
+    .st36{fill:#3C3C3B;}
+    .st37{fill:#0E0F13;}
+    .st38{fill:#FF19A9;}
+    .st39{fill:#2CE578;}
+    .st40{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+    .st41{clip-path:url(#SVGID_50_);}
+    .st42{clip-path:url(#SVGID_52_);}
+    .st43{clip-path:url(#SVGID_54_);}
+    .st44{clip-path:url(#SVGID_56_);}
+    .st45{clip-path:url(#SVGID_58_);}
+    .st46{clip-path:url(#SVGID_60_);}
+    .st47{clip-path:url(#SVGID_62_);}
+    .st48{clip-path:url(#SVGID_64_);}
+    .st49{clip-path:url(#SVGID_66_);}
+    .st50{clip-path:url(#SVGID_68_);}
+    .st51{clip-path:url(#SVGID_70_);}
+    .st52{clip-path:url(#SVGID_72_);}
+    .st53{clip-path:url(#SVGID_74_);}
+    .st54{clip-path:url(#SVGID_76_);}
+    .st55{clip-path:url(#SVGID_78_);}
+    .st56{clip-path:url(#SVGID_80_);}
+    .st57{clip-path:url(#SVGID_82_);}
+    .st58{clip-path:url(#SVGID_84_);}
+    .st59{clip-path:url(#SVGID_86_);}
+    .st60{clip-path:url(#SVGID_88_);}
+    .st61{clip-path:url(#SVGID_90_);}
+    .st62{clip-path:url(#SVGID_92_);}
+    .st63{clip-path:url(#SVGID_94_);}
+    .st64{clip-path:url(#SVGID_96_);}
+    .st65{clip-path:url(#SVGID_98_);}
+    .st66{clip-path:url(#SVGID_100_);}
+    .st67{clip-path:url(#SVGID_102_);}
+    .st68{clip-path:url(#SVGID_104_);}
+    .st69{clip-path:url(#SVGID_106_);}
+    .st70{clip-path:url(#SVGID_108_);}
+    .st71{clip-path:url(#SVGID_110_);}
+    .st72{clip-path:url(#SVGID_112_);}
+    .st73{clip-path:url(#SVGID_114_);}
+    .st74{clip-path:url(#SVGID_116_);}
+    .st75{clip-path:url(#SVGID_118_);}
+    .st76{clip-path:url(#SVGID_120_);}
+    .st77{clip-path:url(#SVGID_122_);}
+    .st78{clip-path:url(#SVGID_124_);}
+    .st79{fill:#E08F80;}
+    .st80{fill:#D88079;}
+    .st81{fill:#3A302E;}
+    .st82{fill:#CF807B;}
+    .st83{fill:#C9736F;}
+    .st84{fill:none;stroke:#E84141;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st85{fill:none;stroke:#1A2B3D;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st86{fill:none;stroke:#E84141;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st87{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st88{fill:none;stroke:#2CE578;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st89{fill:none;stroke:#A46D52;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st90{fill:none;stroke:#7D4E24;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st91{fill:none;stroke:#1A2B3D;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st92{fill:none;stroke:#7D4E24;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st93{fill:none;stroke:#936037;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st94{fill:none;stroke:#E84141;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st95{fill:none;stroke:#1A2B3D;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st96{fill:none;stroke:#2FAC66;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st97{fill:#E08E80;}
+    .st98{fill:#E2ADA6;}
+    .st99{fill:none;stroke:#A46D52;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st100{fill:#D87E77;}
+    @include media-breakpoint-down(md) {
+      max-width: unset !important;
+    }
+    @include media-breakpoint-up(md) {
+      max-width: 460px;
+      height: auto;
+      position: relative;
+      margin-top: 0;
+    }
+
+    svg, img {
+      //position: absolute;
+      //left: 45%;
+      //height: 48rem;
+      //top: 16rem;
+      height: auto;
+      width: 100%;
+      @include media-breakpoint-up(lg) {
+        //box-shadow: $box-shadow-green;
+        top: 10rem;
+      }
+
+      //box-shadow: $box-shadow-green;
+      @include media-breakpoint-up(md) {
+        right: 0;
+        top: 10rem;
+        position: absolute;
+      }
+      @include media-breakpoint-down(md) {
+        position: relative;
+        padding: 4rem 8rem 2rem 8rem;
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+
+  &__text {
+      margin-top: 14rem;
+      margin-left: 14rem;
+    padding-left: 5rem;
+      @include respond(tab-port) {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        margin-top: 10rem;
+      }
+    @media (max-width: 992px) {
+      padding-left: 0;
+    }
+    &__title {
+      font-family: 'Playfair Display SC', serif;
+      font-weight: bold;
+
+      font-size: 4rem;
+      &--span {
+        &--am {
+          font-style: italic;
+          font-size: 3rem;
+          margin-right: 1.5rem;
+        }
+
+        &--dj {
+          color: $color-green-light;
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    &__subtitle {
+      font-size: 1.4rem;
+      max-width: 80vw;
+      margin: 5rem auto 4rem auto;
+    }
+
+    &__cta {
+      margin-top: 3rem;
+
+    }
+  }
+
+  &__button {
+    //position: relative;
+
+    &--cta {
+      @include media-breakpoint-down(md) {
+        left: 50%;
+        transform: translate(-50%, 0%);
+        bottom: -5vh;
+      }
+      @include media-breakpoint-up(md) {
+        position: absolute;
+        left: 50%;
+        bottom: -1vh;
+      }
+    }
+  }
+  &__social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 1rem 2rem;
+    position: fixed;
+    z-index: 3;
+    right: 0%;
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
+    img {
+      width: 130%;
+      transition: all .3s ease;
+      @include media-breakpoint-down(md) {
+        width: 200%;
+      }
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.u--{
+  &fb {
+    top: 43%;
+  }
+  &insta {
+    top:  50%
+  }
+  &soundcloud {
+    top: 57.5%;
+  }
+}
+
+#stars {
+  animation: starsShine 8s infinite linear alternate-reverse;
+
+}
+
+#vinylplaat1 {
+
+}
+
+
+#vinylplaat3 {
+
+}
+
+#Niels_arm2, #Niels_arm1 {
+  animation: rotateArm 4s infinite linear alternate-reverse;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+#vinylplaat2, #vinylplaat3 {
+  animation: rotateVinyl 3s infinite linear alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#vinylplaat2_kopie {
+
+}
+
+#regenboog {
+  opacity: 0;
+  animation: rainbowShine 8s 2s infinite linear alternate;
+
+}
+
+#muzieknoot_1 {
+  animation: moveUpDown 7s infinite linear alternate-reverse;
+}
+
+#muzieknoot_2 {
+  animation: moveUpDown 8s infinite linear alternate-reverse;
+
+}
+
+#geluid {
+  animation: noise 8s 4s infinite linear alternate-reverse;
+  transform-origin: center;
+  transform-box: fill-box;
+
+}
