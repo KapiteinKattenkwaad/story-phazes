@@ -72,13 +72,6 @@ import Glide from '@glidejs/glide'
 
 defineProps({blok: Object})
 
-const slides = ref([
-  'one',
-  'two',
-  'three',
-  'four'
-])
-
 onMounted(() => {
   console.log('myheader mounted');
   new Glide('.glide').mount()

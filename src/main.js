@@ -10,7 +10,7 @@ import Grid from "./components/storyblok/Grid.vue";
 import Page from "./components/storyblok/Page.vue";
 import Teaser from "./components/storyblok/Teaser.vue";
 import Feature from "./components/storyblok/Feature.vue";
-import Mixes from "./components/storyblok/Mixes.vue";
+import Mixes from "./components/storyblok/Mix.vue";
 import Intro from "./components/storyblok/Intro.vue";
 import Merch from "./components/storyblok/Merch.vue";
 import Parties from "./components/storyblok/Parties.vue";
