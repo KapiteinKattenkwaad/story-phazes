@@ -5,6 +5,14 @@
 
 */
 
+.glide {
+  &__arrow {
+    background: transparent;
+    width: auto;
+    border: none;
+  }
+}
+
 .events {
   min-height: 90vh;
   position: relative;
@@ -100,6 +108,10 @@
 
     &__img {
       max-width: 25rem;
+
+      img {
+        object-fit: cover;
+      }
     }
 
     &__name {

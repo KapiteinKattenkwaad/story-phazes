@@ -121,6 +121,9 @@
       margin: auto;
       &__img {
         max-width: 25rem;
+        img {
+          object-fit: cover;
+        }
       }
 
     }

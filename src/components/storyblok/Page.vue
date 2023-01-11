@@ -1,6 +1,5 @@
 <template>
 
-  <Contact />
 
   <section class="mixes" id="mixes">
     <div class="mixes--wrapper">
@@ -30,11 +29,11 @@
       </div>
 
     </div>
+
   </section>
 </template>
 
 <script setup>
-import Contact from "@/components/Main/Contact.vue";
 
 defineProps({blok: Object})
 </script>

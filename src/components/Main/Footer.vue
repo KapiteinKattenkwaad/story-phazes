@@ -1,4 +1,9 @@
 <template>
+
+  <section class="bottom-pic">
+    <img class="bottom-pic__img" src="@/assets/img/nielsbottom@2x-min.png" alt="Dj Phazes">
+  </section>
+
   <footer class="footer" role="contentinfo">
     <a href="#home">
       <div class="footer__to-top">
