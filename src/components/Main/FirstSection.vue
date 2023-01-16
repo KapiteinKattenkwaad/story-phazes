@@ -7483,8 +7483,6 @@ const state = reactive({ story: data.story });
 const intro_text = state.story?.content?.body[0]?.intro_text
 const intro_text_bottom = state.story?.content?.body[0]?.intro_text_bottom
 
-console.log(state.story.content.body)
-
 onMounted(() => {
   useStoryblokBridge(state.story.id, story => (state.story = story));
 });

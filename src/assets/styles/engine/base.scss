@@ -23,23 +23,20 @@ html {
   scroll-behavior: smooth;
   // This defines what 1rem is
   //font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
-  //@include media-breakpoint-down(sm){
-  //  font-size: 130%;
-  //}
-  //@include media-breakpoint-up(sm) { // width < 1200?
-  //    font-size: 130%; //1 rem = 9px, 9/16 = 50%
-  //}
-  //@include media-breakpoint-down(md){
-  //  font-size: 150%;
-  //}
+  @include media-breakpoint-down(lg) {
+    font-size: 100%; //1 rem = 9px, 9/16 = 50%
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 100%; //1 rem = 9px, 9/16 = 50%
+  }
+  @include media-breakpoint-down(md) {
+    font-size: 100%; //1 rem = 9px, 9/16 = 50%
+  }
 
-  //@include media-breakpoint-up(md) { // width < 900?
-  //    font-size: 65%; //1 rem = 8px, 8/16 = 50%
-  //}
+  @include media-breakpoint-down(sm) {
+    font-size: 70%;
+  }
 
-  //@include media-breakpoint-up(lg) {
-  //    font-size: 75%; //1rem = 12, 12/16
-  //}
 }
 
 body {
@@ -47,7 +44,7 @@ body {
   margin: 0;
   font: 14px/20px sans-serif;
   color: $color-primary;
-  @include respond(tab-port) {
+  @include media-breakpoint-down(md) {
     padding: 0;
   }
 }

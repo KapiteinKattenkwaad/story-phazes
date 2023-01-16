@@ -18,8 +18,8 @@
     justify-content: center;
     min-height: 65vh;
     margin-top: 17rem;
-
   }
+
   &--wrapper {
     @include media-breakpoint-down(md) {
       margin-top: 11rem;
@@ -30,17 +30,17 @@
     align-content: center;
     align-items: center;
     position: sticky;
-
-
   }
+
   .sticky-element {
     margin: 10rem auto;
     padding: 32rem 10rem 10rem 10rem;
     width: 60%;
-    @include media-breakpoint-down(md){
+
+    @include media-breakpoint-down(md) {
       margin: 1rem auto;
       padding: 1rem;
       width: 90%;
-     }
+    }
   }
 }

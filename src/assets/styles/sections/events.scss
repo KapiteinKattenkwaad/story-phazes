@@ -101,6 +101,15 @@
     padding: 6px 12px;
     background: $color-purple-bright;
     font-family: $font-serif;
+
+    &.past {
+      background: none;
+      color: $color-green-light;
+    }
+
+    &.upcoming {
+
+    }
   }
 
   &__card {

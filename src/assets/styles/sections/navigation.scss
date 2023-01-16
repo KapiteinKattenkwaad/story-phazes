@@ -5,15 +5,10 @@
 
 */
 
-
 .navbar {
   position: fixed;
   background: transparent;
   margin-top: 7rem;
-}
-
-.nav-pills {
-
 }
 
 .nav-item {
@@ -42,7 +37,6 @@
   font-size: 8px;
   margin-right: 11px;
   .active {
-    //color: $color-green-light !important;
     background: none !important;
     color: $color-purple-bright !important;
     &:before {
@@ -54,8 +48,6 @@
 .active {
   background: none !important;
 }
-
-
 
 .square--link--no-line {
   padding: 0px 5px;
@@ -82,9 +74,6 @@
   width: 1px;
   height: 58px;
 }
-
-
-
 
 .active .square--link {
   border-color: $color-purple-bright;

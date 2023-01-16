@@ -23,7 +23,7 @@
             <div v-for="merch in blok.image" :key="merch.index" class="glider-merch__card">
               <div class="glider-merch__card__img">
                 <div>
-                  <img width="200" height="300" :src="merch.filename" :alt="merch.filename.alt">
+                  <img  :src="merch.filename" :alt="merch.filename.alt">
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ onMounted(() => {
     const carousel = document.querySelector('.glider-merch');
     if (carousel) {
       new Glider(carousel, {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
         draggable: true,
