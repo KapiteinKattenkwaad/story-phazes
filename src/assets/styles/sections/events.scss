@@ -94,11 +94,22 @@
 
 .glider {
   overflow-x: hidden;
+
+  &__upcoming {
+    position: absolute;
+    right: -20px;
+    padding: 6px 12px;
+    background: $color-purple-bright;
+    font-family: $font-serif;
+  }
+
   &__card {
     display: flex;
     flex-direction: column;
     max-width: 22rem;
     margin: 0 2rem;
+    position: relative;
+
     @include media-breakpoint-down(md) {
       max-width: 24rem;
       display: flex;
@@ -137,6 +148,7 @@
     &__link {
       margin: 3rem 0 5rem 0;
     }
+
   }
   .glider-slide.active {
     animation: moveInEvents .4s ease-in;
